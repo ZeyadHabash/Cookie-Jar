@@ -1,0 +1,5 @@
+import ieee
+import ieee.std_logc_1164.all
+Entity adder4 IS
+	port (X, Y : IN STD_LOGIC_VECTOR(3 DOWNTO 0),
+			S : OUT STD_LOGIC_VECTOR(3 DOWNTO 0))
